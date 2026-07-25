@@ -1,5 +1,5 @@
 ---
-title: "Hard App Blocks That Actually Stick"
+title: "App Blocking That Sticks: OS-Level Screen Time Rules"
 sidebarTitle: "App Blocking"
 description: "Tunnelvision uses Apple's Screen Time framework to enforce OS-level app blocks — no bypasses, no one-tap overrides, no way around it."
 ---
@@ -57,7 +57,7 @@ The moment your daily allowance runs out, every blocked app closes to a locked s
 - How much extra time you can request
 - The button to send an unlock request to your friend
 
-Your friend then decides whether to approve. Until they do, the app stays locked.
+Your friend then decides whether to approve. Until they do, the app stays locked. Learn more about how that approval flow works in [Friend Unlocks](/features/friend-unlocks).
 
 ## Hard Blocks vs. Soft Blocks
 
@@ -66,5 +66,9 @@ Most focus apps use **soft blocks** — a reminder screen with a button that say
 Tunnelvision uses **hard blocks**. There is no ignore button. There is no override. The only path back into a blocked app is through your friend. That friction is the point.
 
 <Note>
-  App blocking requires **iOS 18.4 or later**. You must also grant Tunnelvision Screen Time permissions during onboarding — without them, OS-level enforcement is not possible. If you skipped that step, go to **Settings → Screen Time** and authorize Tunnelvision to manage restrictions.
+  App blocking requires **iOS 18.4 or later** (iPad 18.4+ and macOS 15.4+ on Apple M1 or later are also supported). You must also grant Tunnelvision Screen Time permissions during onboarding — without them, OS-level enforcement is not possible. If you skipped that step, go to **Settings → Screen Time** and authorize Tunnelvision to manage restrictions.
 </Note>
+
+<Tip>
+  Want blocks that activate on a repeating schedule — like every weekday from 9 AM to 12 PM — without relying on a daily usage limit? See [Focus Schedules](/features/focus-schedules) (Premium feature).
+</Tip>
