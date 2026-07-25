@@ -1,0 +1,77 @@
+{
+  "projectType": "saas",
+  "projectName": "Tunnelvision",
+  "projectDescription": "Tunnelvision is an iOS app that blocks distracting apps and lets a trusted friend hold the unlock button, so you can only regain screen time by completing your habits first.",
+  "theme": "almond",
+  "primaryColor": "#1A1A2E",
+  "lightColor": "#4F46E5",
+  "darkColor": "#0F0F1A",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/app-blocking",
+              "features/habits",
+              "features/friend-unlocks",
+              "features/focus-schedules"
+            ]
+          },
+          {
+            "group": "Using the App",
+            "pages": [
+              "guides/setting-up-as-blocker",
+              "guides/being-an-accountability-partner",
+              "guides/streaks-and-progress"
+            ]
+          },
+          {
+            "group": "Account & Pricing",
+            "pages": [
+              "account/free-vs-premium",
+              "account/subscription",
+              "account/privacy"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Hard app blocks built on Apple's Screen Time framework",
+    "Friend-held unlocks — only a trusted friend can approve extra screen time",
+    "Habits as proof — complete daily habits to strengthen unlock requests",
+    "Focus schedules — recurring blocks for work, study, and sleep",
+    "Streak visibility — friends see your consistency over time",
+    "Website blocking alongside app blocking",
+    "Privacy-first — usage data stays on device, never sold or shown as ads"
+  ],
+  "publicApiSurface": [
+    "App blocking (Apple Screen Time framework integration)",
+    "Habit creation and completion tracking",
+    "Friend invitation and connection flow",
+    "Unlock request — send to friend with habit proof",
+    "Friend approval/denial of unlock requests",
+    "Focus schedules — recurring time-based blocks",
+    "Premium subscription — monthly/yearly via in-app purchase",
+    "Free tier — 3 habits, limited friends"
+  ]
+}

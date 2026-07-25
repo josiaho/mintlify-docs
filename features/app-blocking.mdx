@@ -1,0 +1,70 @@
+---
+title: "Hard App Blocks That Actually Stick"
+sidebarTitle: "App Blocking"
+description: "Tunnelvision uses Apple's Screen Time framework to enforce OS-level app blocks — no bypasses, no one-tap overrides, no way around it."
+---
+
+Tunnelvision blocks distracting apps at the operating system level using Apple's Screen Time API. Unlike browser extensions or soft timers you can dismiss with a single tap, these blocks are enforced by iOS itself — once your time is up, the app is locked and only your designated friend can open it back up.
+
+## How Hard Blocks Work
+
+Tunnelvision integrates directly with Apple's Screen Time framework, the same system that powers built-in iOS parental controls. When you set a block, iOS enforces it — not just Tunnelvision. That means:
+
+- **No override button.** You cannot tap "Ignore Limit" and continue scrolling.
+- **No app deletion workaround.** Reinstalling a blocked app does not reset the block.
+- **No Settings escape hatch.** Disabling Screen Time requires your friend's approval PIN, which you don't have.
+
+## Supported Apps
+
+Tunnelvision can block any app installed on your device. It comes pre-configured to target the most common sources of distraction:
+
+- Instagram
+- TikTok
+- YouTube
+- X (Twitter)
+- Snapchat
+
+You can also block any other app or entire app categories (Games, Entertainment, Social Networking, and more) directly from the Tunnelvision app selector.
+
+## Setting a Daily Time Limit
+
+<Steps>
+  <Step title="Open Tunnelvision and tap Add Block">
+    From the home screen, tap the **+** button to create a new block rule.
+  </Step>
+  <Step title="Choose your apps">
+    Select individual apps or pick an entire category. You can mix and match — block Instagram and Games together under one rule.
+  </Step>
+  <Step title="Set your daily limit">
+    Choose how many minutes per day you want to allow. When the clock hits zero, the block activates automatically.
+  </Step>
+  <Step title="Save the rule">
+    Tap **Save**. Tunnelvision writes the rule to Screen Time immediately. The limit resets every night at midnight.
+  </Step>
+</Steps>
+
+## Website Blocking
+
+You can block specific websites alongside apps. Add any URL — `instagram.com`, `youtube.com`, `reddit.com` — and Tunnelvision will block access in Safari and all other browsers on your device when the limit is active.
+
+Website blocks follow the same OS-level enforcement as app blocks. Opening a blocked site in any browser shows the same locked screen.
+
+## What Happens When You Hit the Limit
+
+The moment your daily allowance runs out, every blocked app closes to a locked screen. You'll see a Tunnelvision overlay rather than the standard iOS "Time Limit" prompt. That screen tells you:
+
+- Which habits you've completed today
+- How much extra time you can request
+- The button to send an unlock request to your friend
+
+Your friend then decides whether to approve. Until they do, the app stays locked.
+
+## Hard Blocks vs. Soft Blocks
+
+Most focus apps use **soft blocks** — a reminder screen with a button that says something like "One More Minute" or "Ignore for Today." You are one tap away from bypassing them entirely.
+
+Tunnelvision uses **hard blocks**. There is no ignore button. There is no override. The only path back into a blocked app is through your friend. That friction is the point.
+
+<Note>
+  App blocking requires **iOS 18.4 or later**. You must also grant Tunnelvision Screen Time permissions during onboarding — without them, OS-level enforcement is not possible. If you skipped that step, go to **Settings → Screen Time** and authorize Tunnelvision to manage restrictions.
+</Note>
